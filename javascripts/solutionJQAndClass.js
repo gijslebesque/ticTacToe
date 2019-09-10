@@ -19,11 +19,7 @@ class Game {
     const allTableRows = [...this.table.rows];
 
     //if we get the current row (which is the direct parent of the clickedElement )
-    const currentRow = element.parentNode;
-
-    //With the index of method we can find on which row we currently are
-    const rowNr = allTableRows.indexOf(currentRow);
-
+    const currentRowIndex = element.parentNode.rowIndex;
     //Here we set which player has clicked which cell
     this.playingField[rowNr][colNr] = this.currentPlayer;
     this.checkWinner();
