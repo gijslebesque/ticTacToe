@@ -274,10 +274,10 @@ For example,
 We can add an event listener on the button like so:
 
 ```
-    var button = document.getElementById("btn");
-    button.onClick = function() {
-        console.log("the button has been clicked");
-    }
+var button = document.getElementById("btn");
+button.onClick = function() {
+    console.log("the button has been clicked");
+}
 
 ```
 
