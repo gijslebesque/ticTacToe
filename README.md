@@ -1,4 +1,4 @@
-# Coding basics cheat sheet.
+# Coding basics.
 
 Programming basically mean dealing, or manipulating data. Data is information that we store in our
 computer programs.
